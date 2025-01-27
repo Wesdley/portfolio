@@ -1,0 +1,50 @@
+* {
+    font-family: "Smooch Sans", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background: #121212;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #00CC6A;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.circle {
+    border: 2px solid #00CC6A;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.line {
+    width: 2px;
+    background-color: rgba(82, 82, 82, 0.7);
+    height: 50px;
+    margin-left: 10.5px;
+}
+
+/* 
+Background: #121212 (quase preto)
+Texto Primário: #E0E0E0 (cinza claro)
+Destaques: #00FF88 (verde neon)
+Botões e Links: #00CC6A (verde escuro)
+Detalhes Secundários: #1F1F1F (cinza muito escuro)
+*/

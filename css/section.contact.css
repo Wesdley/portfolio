@@ -1,0 +1,55 @@
+.contact {
+    padding: 100px 2%;
+}
+
+.contact .circle:nth-child(5) {
+    background-color: #00CC6A;
+}
+
+.contact .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .container h2 {
+    color: #00CC6A;
+    font-size: 70px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #1F1F1F;
+    padding: 20px;
+}
+
+.info img {
+    width: 50px;
+    height: 50px;
+}
+
+.info p {
+    font-size: 24px;
+    color: white;
+    padding-left: 18px;
+}
+
+.atxt {
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    .contact .w30 {
+        display: none;
+    }
+
+    .contact .container {
+        justify-content: center;
+    }
+
+    .atxt {
+        text-align: center;
+    }
+}

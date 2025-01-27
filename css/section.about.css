@@ -1,0 +1,54 @@
+.about {
+    padding: 100px 2%;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+}
+
+.w70 {
+    width: 90%;
+}
+
+.w30 {
+    width: 10%;
+}
+
+.about .w30 .circle:nth-child(1) {
+    background-color: #00CC6A;
+}
+
+.w70 h2 {
+    font-size: 150px;
+    color: white;
+}
+
+.w70 p {
+    color: rgba(82, 82, 82, 0.7);
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .about .w30 {
+        display: none;
+    }
+
+    .w70 {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%s;
+    }
+
+    .w70 h2 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .w70 p {
+        max-width: 100%;
+    }
+}
