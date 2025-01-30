@@ -1,0 +1,23 @@
+.portfolio {
+    padding: 100px 2%;
+}
+
+.portfolio .wraper-services {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio h3 {
+    font-size: 18px;
+    color: white;
+    margin: -15px 0;
+}
+
+.portfolio h2 {
+    color: #00CC6A;
+    font-size: 70px;
+}
+
+.portfolio .box a {
+    margin-top: 15px;
+}
