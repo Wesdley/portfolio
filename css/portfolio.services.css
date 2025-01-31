@@ -34,3 +34,13 @@
 .portfolio .balls .circle:nth-child(1) {
     background-color: #00CC6A;
 }
+
+@media screen and (max-width: 768px) {
+    .portfolio .container > h2,h3{
+        text-align: center;
+    }
+
+    .portfolio .balls {
+        display: none;
+    }
+}
