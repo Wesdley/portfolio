@@ -1,8 +1,13 @@
 * {
-    font-family: "Smooch Sans", serif;
+    font-family: 'Smooch Sans', serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Smooch Sans';
+    src: url('../fonts/SmoochSans-VariableFont_wght.ttf') format('truetype');
 }
 
 html {

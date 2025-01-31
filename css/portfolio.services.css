@@ -18,6 +18,19 @@
     font-size: 70px;
 }
 
+.portfolio .box img {
+    width: 70px;
+    height: 70px;
+}
+
+.portfolio .box p {
+    min-height: 160px;
+}
+
 .portfolio .box a {
     margin-top: 15px;
+}
+
+.portfolio .balls .circle:nth-child(1) {
+    background-color: #00CC6A;
 }
